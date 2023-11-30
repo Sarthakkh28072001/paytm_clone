@@ -1,0 +1,592 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --black: black;
+  --white: white;
+  --blue: #00baf2;
+  --grey: #ccc;
+  --notgrey: #f6f6f6;
+  --lightblue: rgb(0, 184, 240);
+  --notsomuchlightblue: rgba(9, 74, 94, 0.247);
+  --darkblue: rgb(15, 74, 138);
+  --moredarkblue: rgba(146, 176, 209, 0.637);
+  --smokeem: whitesmoke;
+}
+a:link {
+  color: var(--black);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--black);
+  text-decoration: none;
+}
+header {
+  z-index: 1;
+  background: var(--white);
+  position: fixed;
+  box-shadow: 0px 5px 20px rgba(0, 41, 112, 0.1);
+}
+#nav {
+  height: 80px;
+  width: 1350px;
+}
+section ul {
+  display: flex;
+  list-style: none;
+  font-size: 17px;
+  color: var(--black);
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ul li:hover {
+  background: var(--grey);
+}
+#login {
+  display: flex;
+  background: var(--blue);
+  padding: 2px 2px 2px -22px;
+  border-radius: 20px;
+}
+#sp {
+  position: relative;
+  width: 100px;
+  top: 9px;
+  left: 39px;
+  color: var(--white);
+}
+.below {
+  display: a;
+  height: 40px;
+  background: var(--notgrey);
+  font-weight: 600;
+  font-size: 15px;
+}
+.below span {
+  position: absolute;
+  top: 89px;
+  left: 400px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+}
+img[src="./mobileonthe right.png"] {
+  width: 528px;
+  position: absolute;
+  left: 820px;
+  top: 231px;
+}
+
+img[src="./paytmontheleft.png"] {
+  width: 80px;
+  position: absolute;
+  top: 233px;
+  left: 54px;
+  box-shadow: 0 5px 20px rgba(0, 41, 112, 0.1);
+}
+.container h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  top: 342px;
+  left: 29px;
+}
+.container p {
+  font-size: x-large;
+  font-weight: 500;
+  position: absolute;
+  top: 472px;
+  left: 31px;
+}
+.container button {
+  position: absolute;
+  border: 1px solid;
+  top: 586px;
+  left: 35px;
+  background: var(--black);
+  border-radius: 50px;
+  color: var(--white);
+  height: 40px;
+  width: 230px;
+}
+.container button:hover {
+  background: var(--white);
+  color: var(--black);
+}
+.container2 {
+  margin-top: 680px;
+  background: var(--lightblue);
+  height: 300px;
+}
+.container2 h1,
+.container3 h1 {
+  color: var(--white);
+  font-size: xx-large;
+  position: relative;
+  top: 52px;
+  left: 65px;
+}
+img[alt="a"] {
+  width: 64px;
+  display: block;
+}
+.all {
+  color: var(--white);
+}
+.insidecontainer {
+  color: var(--white);
+  display: flex;
+  position: relative;
+  top: 90px;
+  justify-content: space-evenly;
+}
+.all {
+  border-radius: 10px;
+}
+.all:hover {
+  background: var(--notsomuchlightblue);
+}
+.container3 {
+  height: 300px;
+  background: var(--darkblue);
+}
+.alll:hover {
+  background: var(--notsomuchlightblue);
+}
+#intheend {
+  background: var(--smokeem);
+}
+#intheend h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  position: relative;
+  top: 50px;
+  left: 62px;
+}
+.container4 {
+  background: var(--notgrey);
+  height: 320vh;
+}
+.container4 h1 {
+  font-size: 50px;
+  position: relative;
+  top: 46px;
+  left: 65px;
+}
+
+.container41 {
+  background: var(--white);
+  border-radius: 10px;
+  height: 600px;
+  margin: 70px 115px 0px;
+}
+img[src="haldiram.png"] {
+  height: 500px;
+  margin: 60px 0px 0px 570px;
+}
+img[src="wallet.png"] {
+  position: relative;
+  top: -441px;
+  left: 84px;
+  height: 77px;
+}
+.container41 p {
+  position: relative;
+  font-weight: bolder;
+  bottom: 508px;
+  left: 182px;
+}
+.container41 h1 {
+  position: relative;
+  top: -454px;
+  left: 70px;
+}
+.container41 span {
+  position: relative;
+  top: -440px;
+  left: 73px;
+  font-weight: bolder;
+}
+.container41 button {
+  position: relative;
+  border: 1px solid;
+  top: -325px;
+  left: -321px;
+  background: var(--black);
+  border-radius: 50px;
+  color: var(--white);
+  height: 40px;
+  width: 230px;
+}
+.container41 button:hover {
+  background: var(--white);
+  color: var(--black);
+}
+img[src="people.png"] {
+  position: relative;
+  width: 530px;
+  top: 107px;
+  left: 563px;
+}
+img[src="rupeess.png"] {
+  position: relative;
+  height: 77px;
+  top: -259px;
+  left: -462px;
+}
+#hh {
+  position: relative;
+  top: -246px;
+  left: 56px;
+}
+#pp {
+  position: relative;
+  left: 58px;
+  top: -219px;
+}
+#ppp {
+  position: relative;
+  left: 161px;
+  top: -323px;
+}
+.container5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container51 {
+  position: relative;
+  border-radius: 10px;
+  top: 100px;
+  /* border: solid; */
+  width: 33%;
+  background: var(--white);
+  height: 550px;
+}
+img[src="handcard.png"] {
+  height: 240px;
+  position: relative;
+  top: 103px;
+  left: 0px;
+}
+img[src="twocards.png"] {
+  height: 240px;
+  position: relative;
+  top: 202px;
+  left: 0px;
+}
+img[src="paytmhdfc.png"] {
+  position: relative;
+  height: 77px;
+  top: -18px;
+  left: 29px;
+}
+img[src="paytmsbi.png"] {
+  position: relative;
+  height: 20px;
+  top: 29px;
+  left: 29px;
+}
+.container51 h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  position: relative;
+  top: 16px;
+  left: 20px;
+}
+#amm h1 {
+  position: relative;
+  top: 70px;
+}
+.container51 p {
+  position: relative;
+  top: 30px;
+  font-size: large;
+  font-weight: bolder;
+}
+.container6 {
+  background: var(--white);
+}
+.container6 h1 {
+  position: relative;
+  font-size: 50px;
+  top: 63px;
+  left: 68px;
+}
+img[src="paytmbank.png"] {
+  position: relative;
+  width: 201px;
+  height: 37px;
+  top: -365px;
+  left: -379px;
+}
+.container6 h1 {
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+.container6 h2 {
+  position: relative;
+  top: -325px;
+  left: 47px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.container6 span {
+  position: relative;
+  top: -290px;
+  left: 47px;
+  font-weight: bolder;
+}
+img[src="rahulsharma.png"] {
+  position: relative;
+  height: 494px;
+  width: 422px;
+  top: 44px;
+  left: 852px;
+}
+.learn {
+  position: relative;
+  top: -246px;
+  left: 53px;
+  height: 46px;
+  width: 157px;
+  border-radius: 10px;
+  background: var(--darkblue);
+  color: var(--white);
+  border: none;
+}
+.container7 {
+  display: block;
+  height: 100vh;
+  background: url(./backgrounddd.png) no-repeat bottom;
+  background-size: cover;
+}
+img[src="backgrond.png"] {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 500px;
+}
+img[src="paytmmoney.png"] {
+  position: relative;
+  top: -375px;
+  left: 131px;
+  width: 191px;
+}
+.container7 h1 {
+  position: relative;
+  top: -353px;
+  left: 610px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.container7 p {
+  position: relative;
+  top: -333px;
+  left: 611px;
+  font-size: large;
+  font-weight: bolder;
+}
+#notlearn {
+  position: relative;
+  top: -298px;
+  left: 605px;
+}
+.container8 {
+  display: block;
+  height: 100vh;
+  background: var(--notgrey);
+}
+img[src="loan.png"] {
+  position: relative;
+  top: 10px;
+  left: 57px;
+  width: 500px;
+}
+img[src="loan2.png"] {
+  position: relative;
+  top: -428px;
+  left: 168px;
+  width: 200px;
+}
+.container8 h1 {
+  position: relative;
+  font-size: 50px;
+  top: -409px;
+  left: 683px;
+  font-weight: bolder;
+}
+.container8 p {
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  top: -385px;
+  left: 684px;
+}
+#notnotlearn {
+  position: relative;
+  position: relative;
+  top: -346px;
+  left: 683px;
+}
+img[src="money.png"] {
+  position: relative;
+  top: 101px;
+  left: 49px;
+  width: 175px;
+}
+.container9 p {
+  position: relative;
+  top: 104px;
+  left: 40px;
+  font-weight: bolder;
+}
+.flexbox1 {
+  margin: -70px 0px 0px 250px;
+  height: 260px;
+  display: flex;
+  /* border: solid; */
+  justify-content: space-around;
+}
+.cards {
+  /* border: solid; */
+  border-radius: 10px;
+  background: var(--lightblue);
+  width: 200px;
+}
+img[alt="onewayoranother"] {
+  position: relative;
+  top: 19px;
+  left: 20px;
+  width: 162px;
+}
+.cards p {
+  position: relative;
+  top: 22px;
+  left: 10px;
+  color: var(--white);
+  font-size: x-large;
+}
+.container9 h3 {
+  display: inline;
+  position: relative;
+  top: 110px;
+  left: 40px;
+  color: var(--blue);
+}
+.container9 h3:hover {
+  color: var(--darkblue);
+}
+img[alt="onewayoranother"]:hover {
+  transform: scale(1.1);
+}
+img[src="paytmtravel.png"] {
+  position: relative;
+  top: 101px;
+  left: 49px;
+  width: 175px;
+}
+.container10 p {
+  position: relative;
+  top: 124px;
+  left: 26px;
+  font-weight: bolder;
+}
+.container10 h3 {
+  display: inline;
+  position: relative;
+  top: 140px;
+  left: 40px;
+  color: var(--blue);
+}
+.container10 h3:hover {
+  color: var(--darkblue);
+}
+.flexcontainer2 {
+  margin: -70px 0px 0px 250px;
+  height: 260px;
+  display: flex;
+  /* border: solid; */
+  justify-content: space-around;
+}
+.cardss {
+  /* border: solid; */
+  border-radius: 10px;
+  background: var(--lightblue);
+  width: 200px;
+}
+img[alt="intheend"] {
+  position: relative;
+  width: 100px;
+  top: 21px;
+  left: 7px;
+}
+img[alt="intheend"]:hover {
+  transform: scale(1.1);
+}
+.cardss p {
+  position: relative;
+  top: 31px;
+  left: 14px;
+  color: var(--white);
+}
+footer {
+  margin-top: 100px;
+  display: block;
+  height: 100vh;
+  background: var(--smokeem);
+}
+footer p {
+  position: relative;
+  top: 47px;
+  left: 79px;
+  font-weight: bolder;
+}
+img[src="downloadApple.svg"]{
+  position: relative;
+  top: 0px;
+  left: 290px;
+}
+img[src="downloadGoogle.svg"]{
+  position: relative;
+  left: 303px;
+  justify-content: space-evenly;
+}
+#social{
+  display: flex;
+  position: relative;
+  top: -62px;
+  left: 1191px;
+  /* border: solid; */
+  margin: 12px 1231px 100px 0px;
+}
+img[src="facebook.svg"]{
+  position: relative;
+  left: 20px;
+}
+img[src="twitter.svg"]{
+  position: relative;
+  right:20px ;
+}
+.bottem{
+  margin: 0px 50px 70px ;
+  border-bottom: 1px solid #ccc;
+}
+ul{
+  list-style: none;
+}
+footer ul{
+  position: relative;
+  left: 50px;
+}
+footer ul li {
+  line-height: 40px;
+}
